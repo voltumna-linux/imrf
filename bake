@@ -1,0 +1,11 @@
+MACHINE="sockit"
+nice bitbake -k imrf-sde || return
+
+# MACHINE="sockit"
+# nice bitbake -k imrf-sre || return
+
+# MACHINE="qemu-cortexa9t2hf-neon"
+# SDKMACHINE="x86_64"
+# nice bitbake -k imrf-sdk -c populate_sdk || return
+# SDKMACHINE="x86_64-mingw32"
+# nice bitbake -k imrf-sdk -c populate_sdk || return
