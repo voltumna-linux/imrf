@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=12f884d2ae1ff87c09e5b7ccc2c4ca7e"
 
 inherit devicetree 
 
-SRCREV = "f60cfebbb40a2a8126191d0533811459247bdf3f"
+SRCREV = "142fa51a2b573cd37970bdba73369dfdefde8b0a"
 SRC_URI = "git://gitlab.elettra.eu/alessio.bogani/imrf-dts.git;protocol=https;"
 
 S = "${WORKDIR}/git"
